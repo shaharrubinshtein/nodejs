@@ -10,7 +10,7 @@ var restaurantOrders = new restaurant(),
        app.get('/',(req,res)=>{
       
         //demo
-        restaurantOrders.addOrder(50);
+        restaurantOrders.addOrder(6);
         restaurantOrders.addOrder(3);
         restaurantOrders.addOrder(7);
         restaurantOrders.cancelOrder(1);
